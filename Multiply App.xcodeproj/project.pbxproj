@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		972840B41D89B20D0057E612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972840B31D89B20D0057E612 /* AppDelegate.swift */; };
+		972840B61D89B20D0057E612 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972840B51D89B20D0057E612 /* ViewController.swift */; };
+		972840B91D89B20D0057E612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972840B71D89B20D0057E612 /* Main.storyboard */; };
+		972840BB1D89B20D0057E612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972840BA1D89B20D0057E612 /* Assets.xcassets */; };
+		972840BE1D89B20D0057E612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972840BC1D89B20D0057E612 /* LaunchScreen.storyboard */; };
+		972840C91D89B20D0057E612 /* Multiply_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972840C81D89B20D0057E612 /* Multiply_AppTests.swift */; };
+		972840D41D89B20D0057E612 /* Multiply_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972840D31D89B20D0057E612 /* Multiply_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		972840C51D89B20D0057E612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972840A81D89B20D0057E612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972840AF1D89B20D0057E612;
+			remoteInfo = "Multiply App";
+		};
+		972840D01D89B20D0057E612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972840A81D89B20D0057E612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972840AF1D89B20D0057E612;
+			remoteInfo = "Multiply App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		972840B01D89B20D0057E612 /* Multiply App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiply App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		972840B31D89B20D0057E612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		972840B51D89B20D0057E612 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		972840B81D89B20D0057E612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		972840BA1D89B20D0057E612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		972840BD1D89B20D0057E612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		972840BF1D89B20D0057E612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972840C41D89B20D0057E612 /* Multiply AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		972840C81D89B20D0057E612 /* Multiply_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_AppTests.swift; sourceTree = "<group>"; };
+		972840CA1D89B20D0057E612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972840CF1D89B20D0057E612 /* Multiply AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		972840D31D89B20D0057E612 /* Multiply_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_AppUITests.swift; sourceTree = "<group>"; };
+		972840D51D89B20D0057E612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972840AD1D89B20D0057E612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972840C11D89B20D0057E612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972840CC1D89B20D0057E612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972840A71D89B20D0057E612 = {
+			isa = PBXGroup;
+			children = (
+				972840B21D89B20D0057E612 /* Multiply App */,
+				972840C71D89B20D0057E612 /* Multiply AppTests */,
+				972840D21D89B20D0057E612 /* Multiply AppUITests */,
+				972840B11D89B20D0057E612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		972840B11D89B20D0057E612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972840B01D89B20D0057E612 /* Multiply App.app */,
+				972840C41D89B20D0057E612 /* Multiply AppTests.xctest */,
+				972840CF1D89B20D0057E612 /* Multiply AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972840B21D89B20D0057E612 /* Multiply App */ = {
+			isa = PBXGroup;
+			children = (
+				972840B31D89B20D0057E612 /* AppDelegate.swift */,
+				972840B51D89B20D0057E612 /* ViewController.swift */,
+				972840B71D89B20D0057E612 /* Main.storyboard */,
+				972840BA1D89B20D0057E612 /* Assets.xcassets */,
+				972840BC1D89B20D0057E612 /* LaunchScreen.storyboard */,
+				972840BF1D89B20D0057E612 /* Info.plist */,
+			);
+			path = "Multiply App";
+			sourceTree = "<group>";
+		};
+		972840C71D89B20D0057E612 /* Multiply AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				972840C81D89B20D0057E612 /* Multiply_AppTests.swift */,
+				972840CA1D89B20D0057E612 /* Info.plist */,
+			);
+			path = "Multiply AppTests";
+			sourceTree = "<group>";
+		};
+		972840D21D89B20D0057E612 /* Multiply AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				972840D31D89B20D0057E612 /* Multiply_AppUITests.swift */,
+				972840D51D89B20D0057E612 /* Info.plist */,
+			);
+			path = "Multiply AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972840AF1D89B20D0057E612 /* Multiply App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972840D81D89B20D0057E612 /* Build configuration list for PBXNativeTarget "Multiply App" */;
+			buildPhases = (
+				972840AC1D89B20D0057E612 /* Sources */,
+				972840AD1D89B20D0057E612 /* Frameworks */,
+				972840AE1D89B20D0057E612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiply App";
+			productName = "Multiply App";
+			productReference = 972840B01D89B20D0057E612 /* Multiply App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		972840C31D89B20D0057E612 /* Multiply AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972840DB1D89B20D0057E612 /* Build configuration list for PBXNativeTarget "Multiply AppTests" */;
+			buildPhases = (
+				972840C01D89B20D0057E612 /* Sources */,
+				972840C11D89B20D0057E612 /* Frameworks */,
+				972840C21D89B20D0057E612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972840C61D89B20D0057E612 /* PBXTargetDependency */,
+			);
+			name = "Multiply AppTests";
+			productName = "Multiply AppTests";
+			productReference = 972840C41D89B20D0057E612 /* Multiply AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		972840CE1D89B20D0057E612 /* Multiply AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972840DE1D89B20D0057E612 /* Build configuration list for PBXNativeTarget "Multiply AppUITests" */;
+			buildPhases = (
+				972840CB1D89B20D0057E612 /* Sources */,
+				972840CC1D89B20D0057E612 /* Frameworks */,
+				972840CD1D89B20D0057E612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972840D11D89B20D0057E612 /* PBXTargetDependency */,
+			);
+			name = "Multiply AppUITests";
+			productName = "Multiply AppUITests";
+			productReference = 972840CF1D89B20D0057E612 /* Multiply AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		972840A81D89B20D0057E612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hussain Haq ";
+				TargetAttributes = {
+					972840AF1D89B20D0057E612 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					972840C31D89B20D0057E612 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 972840AF1D89B20D0057E612;
+					};
+					972840CE1D89B20D0057E612 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 972840AF1D89B20D0057E612;
+					};
+				};
+			};
+			buildConfigurationList = 972840AB1D89B20D0057E612 /* Build configuration list for PBXProject "Multiply App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 972840A71D89B20D0057E612;
+			productRefGroup = 972840B11D89B20D0057E612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972840AF1D89B20D0057E612 /* Multiply App */,
+				972840C31D89B20D0057E612 /* Multiply AppTests */,
+				972840CE1D89B20D0057E612 /* Multiply AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972840AE1D89B20D0057E612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972840BE1D89B20D0057E612 /* LaunchScreen.storyboard in Resources */,
+				972840BB1D89B20D0057E612 /* Assets.xcassets in Resources */,
+				972840B91D89B20D0057E612 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972840C21D89B20D0057E612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972840CD1D89B20D0057E612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972840AC1D89B20D0057E612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972840B61D89B20D0057E612 /* ViewController.swift in Sources */,
+				972840B41D89B20D0057E612 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972840C01D89B20D0057E612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972840C91D89B20D0057E612 /* Multiply_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972840CB1D89B20D0057E612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972840D41D89B20D0057E612 /* Multiply_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		972840C61D89B20D0057E612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972840AF1D89B20D0057E612 /* Multiply App */;
+			targetProxy = 972840C51D89B20D0057E612 /* PBXContainerItemProxy */;
+		};
+		972840D11D89B20D0057E612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972840AF1D89B20D0057E612 /* Multiply App */;
+			targetProxy = 972840D01D89B20D0057E612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		972840B71D89B20D0057E612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972840B81D89B20D0057E612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		972840BC1D89B20D0057E612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972840BD1D89B20D0057E612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972840D61D89B20D0057E612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		972840D71D89B20D0057E612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972840D91D89B20D0057E612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multiply App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coolguy.Multiply-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		972840DA1D89B20D0057E612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multiply App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coolguy.Multiply-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		972840DC1D89B20D0057E612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Multiply AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coolguy.Multiply-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiply App.app/Multiply App";
+			};
+			name = Debug;
+		};
+		972840DD1D89B20D0057E612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Multiply AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coolguy.Multiply-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiply App.app/Multiply App";
+			};
+			name = Release;
+		};
+		972840DF1D89B20D0057E612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Multiply AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coolguy.Multiply-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Multiply App";
+			};
+			name = Debug;
+		};
+		972840E01D89B20D0057E612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Multiply AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coolguy.Multiply-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Multiply App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972840AB1D89B20D0057E612 /* Build configuration list for PBXProject "Multiply App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972840D61D89B20D0057E612 /* Debug */,
+				972840D71D89B20D0057E612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972840D81D89B20D0057E612 /* Build configuration list for PBXNativeTarget "Multiply App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972840D91D89B20D0057E612 /* Debug */,
+				972840DA1D89B20D0057E612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		972840DB1D89B20D0057E612 /* Build configuration list for PBXNativeTarget "Multiply AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972840DC1D89B20D0057E612 /* Debug */,
+				972840DD1D89B20D0057E612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		972840DE1D89B20D0057E612 /* Build configuration list for PBXNativeTarget "Multiply AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972840DF1D89B20D0057E612 /* Debug */,
+				972840E01D89B20D0057E612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 972840A81D89B20D0057E612 /* Project object */;
+}
